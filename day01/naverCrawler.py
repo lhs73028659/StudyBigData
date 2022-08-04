@@ -5,18 +5,17 @@ import datetime
 import time
 import json
 
-client_id ='IIwYTMAfysdSGpjuup6T'
-client_secret = 'm5fXKsY8TG'
+client_id ='IIwYTMAfysdSGpjuup6T'      #네이버 디벨로퍼에서 얻은 애플리케이션 정보를 넣는다
+client_secret = 'm5fXKsY8TG'       
 
 
 #url 접속 요청 후 응답리턴 함수
 
 
-
-def getRequestUrl(url):
+def getRequestUrl(url): 
     req = urllib.request.Request(url)
     req.add_header('X-Naver-Client-Id', client_id)
-    req.add_header('X-naver-CLient-Secret',client_secret)
+    req.add_header('X-naver-CLient-Secret',client_secret)  
 
     try :
         res = urllib.request.urlopen(req)
@@ -84,4 +83,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
