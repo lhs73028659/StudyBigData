@@ -6,7 +6,7 @@ import datetime
 
 result = []
 def getHollysStoreInfo(result):
-    for page in range(1,2):  #53페이지까지 있기 때문
+    for page in range(1,59):  #53페이지까지 있기 때문
         hollys_url = f'https://www.hollys.co.kr/store/korea/korStore2.do?pageNo={page}'
         # print(hollys_url)
         html = urllib.request.urlopen(hollys_url)
