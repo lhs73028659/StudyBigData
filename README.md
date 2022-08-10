@@ -27,9 +27,13 @@
   -상관분석
   
 ## Day 5
+-빅데이터분석
 
 ## Day 6
 
-## Day 7
+## PyQt 1
+- PyQt5 학습
+ -PyQt5, Designer 설치
+ -PyQt5 기본폼 만들기
 
 ## Day 8
